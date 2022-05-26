@@ -1,0 +1,202 @@
+.Ime_Prezime{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+}
+.bp{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(slike//city.webp);
+    background-size: cover;
+}
+.main{
+    background-color: #25201f;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top:50px;
+    height: 100%;
+    
+}
+.intro{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-color: silver;
+    width: 400px;
+    height: 250px;
+    
+    
+
+}
+.intro_text{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.Naslov1{
+    font-size: x-large;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    font-family: "Pacifico";
+}
+.paragraf_norm{
+    font-size: medium;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    font-family: "Quicksand";
+}
+.linija{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.gl-naslov{
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(236, 230, 230);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-family: "Pacifico";
+}
+.oblak{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.stil-reda
+{
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+    background-color: grey;
+    border:2px  black;
+    font-size: 13px;
+    line-height: 21px;
+    color: gold;
+}
+.stil-stupca{
+    
+    height: 25px;
+    text-align: left;
+    background-color: grey;
+    border: 2px  black;
+    font-size: 100%;
+    color: white;
+}
+
+
+.tabla{
+    table-layout: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 250px;
+}
+.sidebar{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    background-color: #25201f;
+    color: white;
+}
+.glavnidio{
+    margin-bottom: 100px;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    width: 60%;
+    background-color: #25201f;
+    color: white;
+}
+.tabla1{
+    table-layout: auto;
+    border: solid 1px;
+    z-index: 0;
+}
+tr, td{
+    border: solid 2px gold;
+    text-align: center;
+}
+.slike{
+    background-color: #25201f;
+    position: absolute;
+    top: 1100px;
+    left: 5%;
+    width: 90%;
+}
+.sekcija{
+    background-color: rgb(33, 48, 31);
+    text-align: center;
+    height: 100%;
+
+
+}
+.mlslike{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+}
+.li{
+    color: white;
+}
+header{
+    background-color: #002a32;
+            display: flex;
+            padding: 0 12px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            z-index: 1;
+}
+@media (max-width: 805px){
+    a:link, a:visited{
+        display: block;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    li{
+        clear: both;
+        width: 100%;
+        margin: 2px;
+    }
+    header{
+        display: none;
+    }
+    
+
+}
